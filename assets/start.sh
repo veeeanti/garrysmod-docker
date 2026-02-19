@@ -28,6 +28,7 @@ echo "Starting server on ${MODE} mode..."
 
 /home/gmod/server/srcds_run \
     -game garrysmod \
+    -appid 480 \
     -norestart \
     -strictportbind \
     -autoupdate \
